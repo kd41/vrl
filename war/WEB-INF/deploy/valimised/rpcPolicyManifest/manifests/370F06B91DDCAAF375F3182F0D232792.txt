@@ -1,0 +1,2 @@
+serviceClass: com.tu.vrl.valimised.client.GreetingService
+path: C38BDFD40E16653781C599FD88C3B2F3.gwt.rpc
