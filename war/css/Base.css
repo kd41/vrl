@@ -1,0 +1,70 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+/** ----- Menu ----- */
+ol#toc {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol#toc li {
+    background: #bdf url(../img/tabs.gif);
+    float: left;
+    margin: 0 1px 0 0;
+    padding-left: 10px;
+} 
+ol#toc a {
+    background: url(../img/tabs.gif) 100% 0;
+    color: #008;
+    float: left;
+    line-height: 2em;
+    padding-right: 10px;
+    text-decoration: none;
+}
+ol#toc li.current {
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+ol#toc li.current a {
+    background-position: 100% -60px;
+    color: #fff;
+    font-weight: bold;
+}
+div.content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
