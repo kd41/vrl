@@ -1,0 +1,8 @@
+    <div class="menu">
+	    <ol id="toc">
+		    <li><a href="/home">Kodu</a></li>
+		    <li class="current"><a href="Tulemused.html">Tulemused</a></li>
+		    <li><a href="Kontakt.html">Kontakt</a></li>
+		</ol>
+    
+    </div>

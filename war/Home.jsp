@@ -1,3 +1,5 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <!doctype html>
 <html>
   <head>
@@ -8,7 +10,7 @@
 
     <title>Tulemused</title>
     
-    <script type="text/javascript" src="valimised/valimised.nocache.js" ></script>
+    <script type="text/javascript" language="javascript" src="valimised/valimised.nocache.js"></script>
   </head>
 
   <body>
@@ -21,15 +23,10 @@
 		    <span><a href="logout.html"> Logi välja ></a></span>
     	</div>
     </div>
-    <div class="menu">
-	    <ol id="toc">
-		    <li><a href="Kodu.html">Kodu</a></li>
-		    <li class="current"><a href="Tulemused.html">Tulemused</a></li>
-		    <li><a href="Kontakt.html">Kontakt</a></li>
-		</ol>
-    
-    </div>
-    
+
+<%@ include file="Menu.jspf" %> 
+
+
     <div class="content">
 	    <h1>Tulemused:</h1>
 	
