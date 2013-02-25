@@ -53,3 +53,7 @@ div.content {
 .footer {
 	text-align: center;
 }
+
+.hidden {
+	display:none;
+}

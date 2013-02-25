@@ -1,0 +1,23 @@
+    <% String currentPage = (String) request.getAttribute("currentPage"); %>
+    <div class="menu">
+	    <ol id="toc">
+	    	<li 
+	    	<% if("home".equals(currentPage)) { %>
+		    	class="current"
+		    <% } %>
+		    ><a href="/home">Kodu</a></li>
+		    
+		    <li 
+		    <% if("tulemused".equals(currentPage)) { %>
+		    	class="current"
+		    <% } %>
+		    ><a href="/tulemused">Tulemused</a></li>
+		    
+		    <li 
+		    <% if("contact".equals(currentPage)) { %>
+		    	class="current"
+		    <% } %>
+		    ><a href="/contact">Kontakt</a></li>
+		   
+		</ol>
+    </div>

@@ -13,7 +13,7 @@
   
   <!-- Default page to serve -->
   <welcome-file-list>
-    <welcome-file>Tulemused.html</welcome-file>
+    <welcome-file>home.jsp</welcome-file>
   </welcome-file-list>
 
   <servlet>
@@ -32,12 +32,29 @@
   
    <servlet>
         <servlet-name>home</servlet-name>
-        <jsp-file>/Home.jsp</jsp-file>
+        <jsp-file>/home.jsp</jsp-file>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>home</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>tulemused</servlet-name>
+        <jsp-file>/tulemused.jsp</jsp-file>
+    </servlet>
 
+    <servlet-mapping>
+        <servlet-name>tulemused</servlet-name>
+        <url-pattern>/tulemused</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>contact</servlet-name>
+        <jsp-file>/contact.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>contact</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>contact
 </web-app>

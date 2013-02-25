@@ -1,0 +1,9 @@
+<div class="header">
+	<div id="printPage" class="inline">
+		<a href="#"><span>Print page</span></a>
+	</div>
+	<div class="inline">
+		<span> Minu Nimi </span>
+		<span><a href="logout.html"> Logi välja ></a></span>
+	</div>
+</div>
