@@ -6,13 +6,13 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-                                                           
+                                                    
+    <link type="text/css" rel="stylesheet" href="css/clean.css" />       
     <link type="text/css" rel="stylesheet" href="css/base.css" />
     <link type="text/css" rel="stylesheet"  href="css/print.css" media="print" />
 
     <title>Tulemused</title>
     
-    <script type="text/javascript" language="javascript" src="valimised/valimised.nocache.js"></script>
   </head>
 
   <body>
