@@ -49,11 +49,23 @@ div.content {
 	display: inline;
 }
 
+.hidden {
+	display:none;
+}
+
+.red {
+	color: #f00;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.reg-error {
+	t
+}
+
 /** ----- Footer ----- */
 .footer {
 	text-align: center;
-}
-
-.hidden {
-	display:none;
 }

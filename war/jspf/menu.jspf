@@ -14,6 +14,12 @@
 		    ><a href="/tulemused">Tulemused</a></li>
 		    
 		    <li 
+		    <% if("statistic".equals(currentPage)) { %>
+		    	class="current"
+		    <% } %>
+		    ><a href="/statistic">Statistika</a></li>
+		    
+		    <li 
 		    <% if("contact".equals(currentPage)) { %>
 		    	class="current"
 		    <% } %>

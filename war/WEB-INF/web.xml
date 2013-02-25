@@ -43,10 +43,18 @@
         <servlet-name>tulemused</servlet-name>
         <jsp-file>/tulemused.jsp</jsp-file>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>tulemused</servlet-name>
         <url-pattern>/tulemused</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>statistic</servlet-name>
+        <jsp-file>/statistic.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>statistic</servlet-name>
+        <url-pattern>/statistic</url-pattern>
     </servlet-mapping>
     
     <servlet>
