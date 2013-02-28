@@ -14,7 +14,7 @@
     <title>Tulemused</title>
     
   </head>
-
+ 
   <body>
     
 	<%@ include file="jspf/header.jspf" %> 
