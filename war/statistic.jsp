@@ -23,7 +23,7 @@
 	<%@ include file="jspf/menu.jspf" %> 
 
     <div class="content">
-	    <h1>Statistika:</h1> 
+	    <h1>Statistika:</h1>  
     </div>
     
     <%@ include file="jspf/footer.jspf" %> 
