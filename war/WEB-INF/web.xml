@@ -9,6 +9,10 @@
     <servlet-name>personFinderServlet</servlet-name>
     <servlet-class>com.tu.vrl.valimised.server.PersonFinderServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>presentationQueueServlet</servlet-name>
+    <servlet-class>com.tu.vrl.valimised.server.PresentationQueueServlet</servlet-class>
+  </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
@@ -17,6 +21,10 @@
   <servlet-mapping>
     <servlet-name>personFinderServlet</servlet-name>
     <url-pattern>/find</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>presentationQueueServlet</servlet-name>
+    <url-pattern>/queue</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->

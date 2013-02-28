@@ -6,7 +6,7 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-                                                    
+	
     <link type="text/css" rel="stylesheet" href="css/clean.css" />       
     <link type="text/css" rel="stylesheet" href="css/base.css" />     
     <link type="text/css" rel="stylesheet" href="css/tablesort.css" />
@@ -56,6 +56,7 @@
 	    		</tr>
 	    	</table>
 	    </form>
+	    
 	    <table id="tulemus-table" class="tablesorter">
 	    	<thead>
 	    	<tr>
