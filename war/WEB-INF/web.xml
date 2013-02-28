@@ -5,10 +5,18 @@
     <servlet-name>greetServlet</servlet-name>
     <servlet-class>com.tu.vrl.valimised.server.GreetingServiceImpl</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>personFinderServlet</servlet-name>
+    <servlet-class>com.tu.vrl.valimised.server.PersonFinderServlet</servlet-class>
+  </servlet>
   
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/valimised/greet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>personFinderServlet</servlet-name>
+    <url-pattern>/find</url-pattern>
   </servlet-mapping>
   
   <!-- Default page to serve -->
@@ -63,6 +71,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>contact</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>contact
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
 </web-app>
