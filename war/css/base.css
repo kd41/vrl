@@ -64,6 +64,8 @@ div.content {
     background-repeat: no-repeat;
     height: 64px;
     width: 64px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #reg-form intput, #reg-form select {

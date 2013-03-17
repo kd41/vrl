@@ -1,6 +1,8 @@
 <div class="page-header">
 	<div class="inline">
-		<span> Minu Nimi </span>
+		<span><a href="queue"> Queue </a></span><span>|</span>
+		<span><a href="find"> Find </a></span><span>|</span>
+		<span> Minu Nimi </span><span>|</span>
 		<span><a href="logout.html"> Logi välja ></a></span>
 	</div>
 </div>

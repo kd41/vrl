@@ -14,6 +14,26 @@
     <servlet-class>com.tu.vrl.valimised.server.PresentationQueueServlet</servlet-class>
   </servlet>
   
+  
+  <servlet>
+    <servlet-name>statistic</servlet-name>
+    <servlet-class>com.tu.vrl.valimised.statistic.StatisticServlet</servlet-class>
+<!--     <jsp-file>/statistic.jsp</jsp-file> -->
+    
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>statistic</servlet-name>
+      <url-pattern>/statistic</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>clearstatistic</servlet-name>
+    <servlet-class>com.tu.vrl.valimised.statistic.ClearStatisticServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>clearstatistic</servlet-name>
+      <url-pattern>/clearstatistic</url-pattern>
+  </servlet-mapping>
+  
   <servlet-mapping>
     <servlet-name>greetServlet</servlet-name>
     <url-pattern>/valimised/greet</url-pattern>
@@ -62,15 +82,6 @@
     <servlet-mapping>
         <servlet-name>tulemused</servlet-name>
         <url-pattern>/tulemused</url-pattern>
-    </servlet-mapping>
-    
-    <servlet>
-        <servlet-name>statistic</servlet-name>
-        <jsp-file>/statistic.jsp</jsp-file>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>statistic</servlet-name>
-        <url-pattern>/statistic</url-pattern>
     </servlet-mapping>
     
     <servlet>

@@ -5,6 +5,8 @@ $(document).ready(function() {
 		var name = $("#tul-name").val();
 		var region = $("#tul-region").val();
 		
+		$("#tulemus-table tbody").html('<tr><td colspan="4"><div id="loading-div" class="loading"></div></tr></td>');
+		
 		$.ajax({
 		    type: "GET",
 		    url: "/find",
@@ -36,7 +38,7 @@ $(document).ready(function() {
 		updateTable(event);
 	});
 	$("#tul-form").find("input").on("keyup", function(event) {
-		if(event.target.value.length < 3) {
+		if(event.target.value.length < 2) {
 			return;
 		}
 		updateTable(event);
