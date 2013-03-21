@@ -76,6 +76,11 @@ div.content {
 	color: #f00;
 }
 
+#google-map {
+	width: 600px;
+	height: 400px;
+}
+
 /** ----- Footer ----- */
 .footer {
 	text-align: center;

@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/jquery.tablesorter.js"></script>
     <script type="text/javascript" src="js/statistic.js"></script>
 
-    <title>Tulemused</title>
+    <title>Statistika</title>
   </head>
   <body>
 	<%@ include file="jspf/header.jspf" %> 

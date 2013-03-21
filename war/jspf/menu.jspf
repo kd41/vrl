@@ -20,6 +20,12 @@
 		    ><a href="/statistic">Statistika</a></li>
 		    
 		    <li 
+		    <% if("map".equals(currentPage)) { %>
+		    	class="current"
+		    <% } %>
+		    ><a href="/map">Kaart</a></li>
+		    
+		    <li 
 		    <% if("contact".equals(currentPage)) { %>
 		    	class="current"
 		    <% } %>

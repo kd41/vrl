@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="js/home.js"></script>
 
-    <title>Tulemused</title>
+    <title>Pealeht</title>
     
   </head>
 
