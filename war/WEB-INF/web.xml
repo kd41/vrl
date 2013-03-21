@@ -14,6 +14,15 @@
     <servlet-class>com.tu.vrl.valimised.server.PresentationQueueServlet</servlet-class>
   </servlet>
   
+  <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.tu.vrl.valimised.server.TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>test</servlet-name>
+      <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
   
   <servlet>
     <servlet-name>statistic</servlet-name>

@@ -17,12 +17,7 @@ public class StatisticServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     System.out.println("get statistic");
-
-    request.setAttribute("teamNames", Constants.getTeams());
-    request.setAttribute("teamPasswords", Constants.getTeamPasswords());
-
-    request.setAttribute("statistics", ChooseStatistic.getStatistics());
-
+    putData(request);
     forvard(request, response);
   }
 
@@ -68,8 +63,15 @@ public class StatisticServlet extends HttpServlet {
       for (ChooseStatistic.Team team : ChooseStatistic.getStatistics()) {
         // System.out.println("team:" + team);
       }
+      putData(request);
       forvard(request, response);
     }
+  }
+
+  private void putData(HttpServletRequest request) {
+    request.setAttribute("teamNames", Constants.getTeams());
+    request.setAttribute("teamPasswords", Constants.getTeamPasswords());
+    request.setAttribute("statistics", ChooseStatistic.getStatistics());
   }
 
   private void forvard(HttpServletRequest request, HttpServletResponse response) {
