@@ -12,6 +12,7 @@
     
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfDaOhZ2L_IzZHlKjhVyWvF6F_C7FY3lI&sensor=false"></script>
+    <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
     <script type="text/javascript" src="js/map.js"></script>
 
     <title>Kaart</title>
@@ -22,13 +23,23 @@
 	<%@ include file="jspf/menu.jspf" %> 
 
     <div class="content">
-	    <h1>Google kaart</h1>
-<!-- 		<div id="google-map0" class="inline" style="width:200px;height:100px;background-color:red">super div</div> -->
-		<div>
-			<div id="map-log-lat">Latitude:</div>
-			<div id="map-log-lng">Longitude:</div>
-			<div id="google-map"></div>
+	    <h1>Kaardid</h1>
+	    <div>
+	    	<div id="bing-map"></div>
+	    	<div>
+		    	<div id="bing-log-lat">Latitude:</div>
+		    	<div id="bing-log-lng">Longitude:</div>
+	    	</div>
 		</div>
+		<div class="clear" ></div>
+		<div>
+			<div id="google-map"></div>
+			<div>
+				<div id="map-log-lat">Latitude:</div>
+				<div id="map-log-lng">Longitude:</div>
+			</div>
+		</div>
+		<div class="clear" ></div>
 		
     </div>
     <%@ include file="jspf/footer.jspf" %>

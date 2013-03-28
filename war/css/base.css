@@ -79,6 +79,26 @@ div.content {
 #google-map {
 	width: 600px;
 	height: 400px;
+	float: left;
+}
+#bing-map {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	float: left;
+}
+
+/* Clear floats */
+.clear {
+	*zoom: 1;
+}
+.clear:before, .clear:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.clear:after {
+	clear: both;
 }
 
 /** ----- Footer ----- */
