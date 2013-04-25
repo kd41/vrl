@@ -49,7 +49,7 @@ public class StatisticServlet extends HttpServlet {
     }
 
     if (!Constants.getTeamPasswords().get(current).equals(password)) {
-      System.out.println("Team " + currentName + " used wrond password: " + password);
+      System.out.println("Team " + currentName + " used wrond password: " + password + ". Right is: " + Constants.getTeamPasswords().get(current));
       hasError = true;
     }
 

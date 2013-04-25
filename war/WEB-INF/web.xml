@@ -110,4 +110,15 @@
         <servlet-name>contact</servlet-name>
         <url-pattern>/contact</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+    	<servlet-name>kandidaadid</servlet-name>
+    	<servlet-class>com.tu.vrl.valimised.server.KandidaadidServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    	<servlet-name>kandidaadid</servlet-name>
+    	<url-pattern>/kandidaadid</url-pattern>
+    </servlet-mapping>
+    
+    
 </web-app>

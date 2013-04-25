@@ -1,7 +1,7 @@
 package com.tu.vrl.valimised.constants;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 public class Constants {
@@ -14,7 +14,7 @@ public class Constants {
 
   public static List<String> getTeams() {
     if (teams == null) {
-      teams = new LinkedList<>();
+      teams = new ArrayList<>();
       teams.addAll(Arrays.asList(TEAMS));
     }
     return teams;
@@ -22,7 +22,7 @@ public class Constants {
 
   public static List<String> getTeamPasswords() {
     if (passwords == null) {
-      passwords = new LinkedList<>();
+      passwords = new ArrayList<>();
       passwords.addAll(Arrays.asList(PASSWORDS));
     }
     return passwords;
